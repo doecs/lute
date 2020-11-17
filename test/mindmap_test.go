@@ -13,9 +13,9 @@ package test
 import (
 	"testing"
 
-	"github.com/88250/lute/parse"
+	"lute/parse"
 
-	"github.com/88250/lute"
+	"lute"
 )
 
 var mindmapTests = []parseTest{

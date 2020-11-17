@@ -14,10 +14,10 @@ package lute
 import (
 	"strings"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/render"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/parse"
+	"lute/render"
+	"lute/util"
 	"github.com/gopherjs/gopherjs/js"
 )
 

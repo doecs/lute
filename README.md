@@ -339,3 +339,18 @@ Lute uses the [Mulan Permissive Software License，Version 2](http://license.cos
 * [Chroma](https://github.com/alecthomas/chroma): A general purpose syntax highlighter in pure Go
 * [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines): Chinese copywriting guidelines for better written communication
 * [GopherJS](https://github.com/gopherjs/gopherjs): A compiler from Go to JavaScript for running Go code in a browser
+
+
+## Setup
+- go version: 1.14
+- run: go mod download
+
+## Build
+- install gopherjs(用于生成js文件，供vidtor使用)
+- 生成js文件。进入目录：lute/javascript, 执行：'build'生成lute.min.js。执行：'build-nomin'生成lute.js（开发调试用）
+
+## Release Note
+1.4.7.1
+- 2020/11/17 添加生成lute.js的脚本，修改readme添加对生成lute.js的说明
+- 2020/06/17 将impoort中github.com/88250/开头的package转为本项目的路径，如：github.com/88250/lute/ast => lute/ast，包括go.mod中的module github.com/88250/lute = > lute
+- customized base on 1.4.7

@@ -11,11 +11,11 @@
 package util
 
 import (
-	"github.com/88250/lute/lex"
+	"lute/lex"
 	"strings"
 	"unicode/utf8"
 
-	"github.com/88250/lute/html"
+	"lute/html"
 )
 
 var (

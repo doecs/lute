@@ -17,10 +17,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/lex"
+	"lute/parse"
+	"lute/util"
 )
 
 // FormatRenderer 描述了格式化渲染器。

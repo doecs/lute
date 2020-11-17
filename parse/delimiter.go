@@ -11,8 +11,8 @@
 package parse
 
 import (
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
+	"lute/ast"
+	"lute/lex"
 	"unicode"
 	"unicode/utf8"
 )

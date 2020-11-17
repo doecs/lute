@@ -15,13 +15,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/html/atom"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/html/atom"
+	"lute/util"
 
-	"github.com/88250/lute/html"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/render"
+	"lute/html"
+	"lute/parse"
+	"lute/render"
 )
 
 // SpinVditorIRDOM 自旋 Vditor Instant-Rendering DOM，用于即时渲染模式下的编辑。

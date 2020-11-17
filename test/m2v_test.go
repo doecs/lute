@@ -11,9 +11,9 @@
 package test
 
 import (
+	"fmt"
+	"lute"
 	"testing"
-
-	"github.com/88250/lute"
 )
 
 var md2VditorTests = []parseTest{
@@ -78,3 +78,4 @@ func TestMd2VditorIR(t *testing.T) {
 		}
 	}
 }
+

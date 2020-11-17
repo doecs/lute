@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/parse"
+	"lute/util"
 )
 
 // renderMindmap 用于将列表 Markdown 原文转为 ECharts 树图结构，提供给前端渲染脑图。

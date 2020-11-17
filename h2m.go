@@ -14,12 +14,12 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/html"
-	"github.com/88250/lute/html/atom"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/render"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/html"
+	"lute/html/atom"
+	"lute/parse"
+	"lute/render"
+	"lute/util"
 )
 
 // HTML2Markdown 将 HTML 转换为 Markdown。

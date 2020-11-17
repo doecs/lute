@@ -11,7 +11,7 @@
 package parse
 
 import (
-	"github.com/88250/lute/lex"
+	"lute/lex"
 )
 
 func (t *Tree) parseThematicBreak() (ok bool, caretTokens []byte) {

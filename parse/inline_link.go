@@ -14,8 +14,8 @@ import (
 	"bytes"
 	"unicode/utf8"
 
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"lute/lex"
+	"lute/util"
 )
 
 func (context *Context) parseInlineLinkDest(tokens []byte) (passed, remains, destination []byte) {

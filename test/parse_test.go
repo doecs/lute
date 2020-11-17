@@ -14,7 +14,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/88250/lute"
+	"lute"
 )
 
 type parseTest struct {

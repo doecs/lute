@@ -13,8 +13,8 @@ package parse
 import (
 	"bytes"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
+	"lute/ast"
+	"lute/lex"
 )
 
 func ParagraphContinue(p *ast.Node, context *Context) int {

@@ -14,8 +14,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/util"
 )
 
 // ChinesePunct 会把文本节点 textNode 中的中文间的英文标点换成对应的中文标点。

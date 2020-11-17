@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"unicode/utf8"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/lex"
+	"lute/util"
 )
 
 func (t *Tree) parseGFMAutoEmailLink(node *ast.Node) {

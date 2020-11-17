@@ -15,7 +15,7 @@ import (
 	"os"
 	"runtime/pprof"
 
-	"github.com/88250/lute"
+	"lute"
 )
 
 func main() {

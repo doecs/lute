@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/lex"
+	"lute/util"
 )
 
 // parseBlocks 解析并生成块级节点。

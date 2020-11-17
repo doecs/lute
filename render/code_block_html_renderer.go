@@ -17,9 +17,9 @@ import (
 	"go/format"
 	"strings"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/lex"
+	"lute/util"
 
 	"github.com/alecthomas/chroma"
 	chromahtml "github.com/alecthomas/chroma/formatters/html"

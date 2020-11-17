@@ -15,12 +15,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/html"
-	"github.com/88250/lute/html/atom"
-	"github.com/88250/lute/parse"
-	"github.com/88250/lute/render"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/html"
+	"lute/html/atom"
+	"lute/parse"
+	"lute/render"
+	"lute/util"
 )
 
 // Md2HTML 将 markdown 转换为标准 HTML，用于源码模式预览。

@@ -13,8 +13,8 @@ package parse
 import (
 	"bytes"
 
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"lute/lex"
+	"lute/util"
 )
 
 func (t *Tree) parseATXHeading() (ok bool, markers, content []byte, level int, id []byte) {

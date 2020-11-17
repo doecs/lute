@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"unicode/utf8"
 
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/lex"
+	"lute/util"
 )
 
 // FixTermTypo 修正文本节点 textNode 中出现的术语拼写问题。

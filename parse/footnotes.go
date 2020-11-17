@@ -12,7 +12,7 @@ package parse
 
 import (
 	"bytes"
-	"github.com/88250/lute/ast"
+	"lute/ast"
 )
 
 func FootnotesContinue(footnotesDef *ast.Node, context *Context) int {

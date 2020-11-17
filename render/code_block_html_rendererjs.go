@@ -13,9 +13,9 @@
 package render
 
 import (
-	"github.com/88250/lute/ast"
-	"github.com/88250/lute/lex"
-	"github.com/88250/lute/util"
+	"lute/ast"
+	"lute/lex"
+	"lute/util"
 )
 
 // renderCodeBlock 进行代码块 HTML 渲染，不实现语法高亮。

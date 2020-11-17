@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/88250/lute"
+	"lute"
 )
 
 type formatTest struct {

@@ -11,7 +11,7 @@
 package ast
 
 import (
-	"github.com/88250/lute/util"
+	"lute/util"
 )
 
 // Node 描述了节点结构。
